@@ -4,19 +4,29 @@
     <title>Welcome to The David Center</title>
 
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- Bootstrap link to make website responsive-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 
 </head>
- <div class="container-fluid">
-<body background="./data-center-datacenter-977817.6.jpg">
-    <div id=main>
-        <p><b>The David Center</b></p>
-        <div id=menu>
-            <a class="btn" href="https://opsview.thedavid.center">Opsview</a>
-            <a class="btn" href="http://confluence.thedavid.center">Confluence</a>
+
+<body>
+   <!-- responsive class-->
+    <div class="container-fluid text-center">
+       <!--auto padding for title and button-->
+        <div class="jumbotron">
+            <h1 id="main"><b>The David Center</b></h1>
         </div>
+          <!--buttons space out and linked to an external page when clicked-->
+           <div class="row">
+           <div class=" col-md-1 col-md-offset-5">
+            <a type="button" class="btn btn-primary button1" href="https://opsview.thedavid.center" target="_blank"> Opsview</a></div>
+            <div class="col-md-1 ">
+            <a type="button" class="btn btn-primary button1" href="http://confluence.thedavid.center" target="_blank">Confluence</a></div>
+            </div>
+
     </div>
+
 </body>
-</div>
+
 
 </html>
